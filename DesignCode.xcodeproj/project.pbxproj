@@ -15,6 +15,7 @@
 		0D5AB9BB23F08C3200279880 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5AB9B923F08C3200279880 /* LaunchScreen.storyboard */; };
 		0D5AB9C623F08C3200279880 /* DesignCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5AB9C523F08C3200279880 /* DesignCodeTests.swift */; };
 		0D5AB9D123F08C3200279880 /* DesignCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5AB9D023F08C3200279880 /* DesignCodeUITests.swift */; };
+		0DB07A7C23F8C97D002372A8 /* MenuViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB07A7B23F8C97D002372A8 /* MenuViewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0D5AB9CC23F08C3200279880 /* DesignCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D5AB9D023F08C3200279880 /* DesignCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeUITests.swift; sourceTree = "<group>"; };
 		0D5AB9D223F08C3200279880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DB07A7B23F8C97D002372A8 /* MenuViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				0D5AB9B923F08C3200279880 /* LaunchScreen.storyboard */,
 				0D5AB9BC23F08C3200279880 /* Info.plist */,
 				0D5AB9B623F08C3100279880 /* Preview Content */,
+				0DB07A7B23F8C97D002372A8 /* MenuViewView.swift */,
 			);
 			path = DesignCode;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DB07A7C23F8C97D002372A8 /* MenuViewView.swift in Sources */,
 				0D5AB9AF23F08C3000279880 /* AppDelegate.swift in Sources */,
 				0D5AB9B123F08C3000279880 /* SceneDelegate.swift in Sources */,
 				0D5AB9B323F08C3000279880 /* ContentView.swift in Sources */,
