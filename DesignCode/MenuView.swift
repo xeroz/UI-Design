@@ -1,5 +1,5 @@
 //
-//  MenuViewView.swift
+//  MenuView.swift
 //  DesignCode
 //
 //  Created by juan on 2/15/20.
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct MenuViewView: View {
+struct MenuView: View {
     var body: some View {
         VStack {
             Spacer()
@@ -55,7 +55,7 @@ struct MenuViewView: View {
 
 struct MenuView_Previews: PreviewProvider {
     static var previews: some View {
-        MenuViewView()
+        MenuView()
     }
 }
 
