@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0D05A2B72426D9B900BED269 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D05A2B62426D9B900BED269 /* UpdateList.swift */; };
 		0D05A2B92426F9A800BED269 /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D05A2B82426F9A800BED269 /* UpdateDetail.swift */; };
+		0D48B42C2427BFC0008A86F5 /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D48B42B2427BFC0008A86F5 /* UpdateStore.swift */; };
 		0D5AB9AF23F08C3000279880 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5AB9AE23F08C3000279880 /* AppDelegate.swift */; };
 		0D5AB9B123F08C3000279880 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5AB9B023F08C3000279880 /* SceneDelegate.swift */; };
 		0D5AB9B323F08C3000279880 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5AB9B223F08C3000279880 /* ContentView.swift */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		0D05A2B62426D9B900BED269 /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
 		0D05A2B82426F9A800BED269 /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
+		0D48B42B2427BFC0008A86F5 /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
 		0D5AB9AB23F08C3000279880 /* DesignCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D5AB9AE23F08C3000279880 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D5AB9B023F08C3000279880 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				0D705796240C5D3D0036FFA6 /* Home.swift */,
 				0D05A2B62426D9B900BED269 /* UpdateList.swift */,
 				0D05A2B82426F9A800BED269 /* UpdateDetail.swift */,
+				0D48B42B2427BFC0008A86F5 /* UpdateStore.swift */,
 			);
 			path = DesignCode;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D705793240B6F1E0036FFA6 /* MenuView.swift in Sources */,
+				0D48B42C2427BFC0008A86F5 /* UpdateStore.swift in Sources */,
 				0D05A2B72426D9B900BED269 /* UpdateList.swift in Sources */,
 				0D5AB9AF23F08C3000279880 /* AppDelegate.swift in Sources */,
 				0D05A2B92426F9A800BED269 /* UpdateDetail.swift in Sources */,
