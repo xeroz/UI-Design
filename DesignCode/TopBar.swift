@@ -29,7 +29,7 @@ struct TopBar_Previews: PreviewProvider {
     static var previews: some View {
 //        TopBar()
         Group {
-            TopBar().previewDevice("iPhone 8")
+//            TopBar().previewDevice("iPhone 8")
             TopBar().previewDevice("iPhone 11 ProMax")
         }
     }

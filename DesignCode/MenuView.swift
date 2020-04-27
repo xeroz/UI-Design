@@ -18,8 +18,6 @@ struct MenuView: View {
                     .font(.caption)
 
                 Color.white
-                    .frame(width: 38, height: 6)
-                    .cornerRadius(3)
                     .frame(width: 130, height: 6, alignment: .leading)
                     .background(Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1))).opacity(0.08)
                     .cornerRadius(3)
