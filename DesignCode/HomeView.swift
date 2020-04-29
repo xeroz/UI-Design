@@ -34,7 +34,7 @@ struct HomeView: View {
                         .shadow(color: Color.black.opacity(0.2), radius: 10, x: 0, y: 10)
                 }
                 .sheet(isPresented: $showUpdate){
-                    ContentView()
+                    UpdateList()
                 }
             }
             .padding(.horizontal)
@@ -61,9 +61,12 @@ struct HomeView: View {
                     }
                 }
                 .padding(.horizontal)
+                .padding(.bottom, 40)
                 .padding(.leading, 14)
                 .padding(.top, 30)
             }
+            .offset(y: -30)
+            
             Spacer()
         }
     }
@@ -102,7 +105,7 @@ struct SectionView: View {
         .frame(width: 275, height: 275)
         .background(section.color)
         .cornerRadius(30)
-        .shadow(color: section.color.opacity(0.3), radius: 20, x: 0, y:20)
+        .shadow(color: section.color.opacity(0.3), radius: 10, x: 0, y:10)
     }
 }
 
