@@ -96,9 +96,10 @@ struct CourseView: View {
 
             VStack {
                 HStack(alignment: .top) {
-                    VStack {
+                    VStack(alignment: .leading, spacing: 8.0) {
                         Text(course.title)
                             .font(.system(size: 24, weight: .bold))
+                            .foregroundColor(.white)
                         Text(course.subtitle)
                             .foregroundColor(Color.white.opacity(0.7))
                     }
@@ -162,6 +163,13 @@ struct CourseView: View {
                 } else {
                     self.activeIndex = -1
                 }
+            }
+            
+            if show {
+//                CourseDetail(course: course, show: $show, active: $active, activeIndex: $activeIndex)
+//                    .background(Color.white)
+//                    .padding(.top, -15)
+//                    .animation(nil)
             }
         }
         .frame(height: show ? screen.height : 280)
